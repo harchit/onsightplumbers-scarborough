@@ -8,7 +8,7 @@ const Services = () => {
   const services = [
     {
       title: "Emergency Plumbing",
-      description: "Burst pipes, major leaks, and overflowing toilets don't wait for business hours. Our emergency Brampton plumbers are available 24/7 to handle your most urgent crises.",
+      description: "Burst pipes, major leaks, and overflowing toilets don't wait for business hours. Our emergency Scarborough plumbers are available 24/7 to handle your most urgent crises.",
       icon: <Clock className="h-10 w-10 text-blue-600" />,
       features: ["24/7 Availability", "Rapid Response Time", "Expert Troubleshooting", "Immediate Repairs"],
     },
@@ -20,25 +20,25 @@ const Services = () => {
     },
     {
       title: "Water Heater Services",
-      description: "Whether you need a new installation or a quick repair, we handle all types of water heaters, including tankless, gas, and electric models in Brampton.",
+      description: "Whether you need a new installation or a quick repair, we handle all types of water heaters, including tankless, gas, and electric models in Scarborough.",
       icon: <Thermometer className="h-10 w-10 text-blue-600" />,
       features: ["New Installations", "Repair & Maintenance", "Tankless Upgrades", "Efficiency Checks"],
     },
     {
       title: "Pipe Installation & Repair",
-      description: "From fixing a small leak to complete repiping of your home or business, our Brampton plumbing experts ensure your system is durable and leak-free.",
+      description: "From fixing a small leak to complete repiping of your home or business, our Scarborough plumbing experts ensure your system is durable and leak-free.",
       icon: <Hammer className="h-10 w-10 text-blue-600" />,
       features: ["Copper & PEX Piping", "Leak Detection", "Repiping Services", "Joint Repairs"],
     },
     {
       title: "Fixture Installation",
-      description: "Upgrading your kitchen or bathroom? We install faucets, sinks, toilets, showers, and more with precision and care for Brampton residents.",
+      description: "Upgrading your kitchen or bathroom? We install faucets, sinks, toilets, showers, and more with precision and care for Scarborough residents.",
       icon: <Settings className="h-10 w-10 text-blue-600" />,
       features: ["Kitchen Faucets", "Bathroom Fixtures", "Toilet Replacement", "Showerhead Upgrades"],
     },
     {
       title: "Sump Pump Services",
-      description: "Protect your basement from flooding with a reliable sump pump. We offer installation, testing, and repair services to keep your Brampton home dry.",
+      description: "Protect your basement from flooding with a reliable sump pump. We offer installation, testing, and repair services to keep your Scarborough home dry.",
       icon: <Zap className="h-10 w-10 text-blue-600" />,
       features: ["New Installations", "Battery Backups", "Testing & Maintenance", "Pump Repairs"],
     },
@@ -53,9 +53,9 @@ const Services = () => {
         <div className="absolute inset-0 bg-blue-600/10" />
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-extrabold mb-6">Professional <span className="text-blue-400">Brampton Plumbing Services</span></h1>
+            <h1 className="text-5xl font-extrabold mb-6">Professional <span className="text-blue-400">Scarborough Plumbing Services</span></h1>
             <p className="text-xl text-slate-300 leading-relaxed">
-              Comprehensive plumbing solutions for residential and commercial properties in Brampton. 
+              Comprehensive plumbing solutions for residential and commercial properties in Scarborough. 
               We combine years of experience with modern technology to deliver results you can trust.
             </p>
           </div>
@@ -107,7 +107,7 @@ const Services = () => {
             <div className="rounded-3xl overflow-hidden shadow-2xl aspect-video">
               <img
                 src="https://images.unsplash.com/photo-1521207418485-99c705420785?auto=format&fit=crop&q=80&w=1000"
-                alt="Commercial Plumbing in Brampton"
+                alt="Commercial Plumbing in Scarborough"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -118,9 +118,9 @@ const Services = () => {
           </div>
           <div className="flex flex-col gap-8">
             <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm">Business Solutions</h2>
-            <h3 className="text-4xl font-bold text-slate-900">Commercial Brampton Plumbing Services</h3>
+            <h3 className="text-4xl font-bold text-slate-900">Commercial Scarborough Plumbing Services</h3>
             <p className="text-slate-600 leading-relaxed">
-              We provide specialized plumbing services for businesses, restaurants, and industrial facilities in Brampton. 
+              We provide specialized plumbing services for businesses, restaurants, and industrial facilities in Scarborough. 
               Our team understands the unique requirements of commercial plumbing systems and works efficiently to minimize downtime.
             </p>
             <ul className="grid sm:grid-cols-2 gap-4">
@@ -152,9 +152,9 @@ const Services = () => {
         <div className="max-w-5xl mx-auto px-6">
           <div className="bg-blue-600 rounded-[40px] p-12 md:p-20 text-center relative overflow-hidden">
             <div className="relative z-10 flex flex-col items-center gap-8">
-              <h2 className="text-4xl md:text-5xl font-bold text-white">Need a Brampton Plumber Right Now?</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-white">Need a Scarborough Plumber Right Now?</h2>
               <p className="text-blue-100 text-lg max-w-2xl">
-                We handle all types of plumbing projects, big and small. Give our Brampton plumbers a call to discuss your specific needs and get a free estimate.
+                We handle all types of plumbing projects, big and small. Give our Scarborough plumbers a call to discuss your specific needs and get a free estimate.
               </p>
               <Button asChild size="lg" className="bg-white text-blue-600 hover:bg-blue-50 rounded-full px-10 py-8 text-xl shadow-xl">
                 <a href="tel:2899073904" className="flex items-center gap-3">

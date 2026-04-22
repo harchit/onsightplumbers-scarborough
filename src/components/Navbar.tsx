@@ -41,7 +41,7 @@ const Navbar = () => {
               On-Sight
             </span>
             <span className={cn("text-xs font-medium tracking-wider uppercase", scrolled ? "text-blue-600" : "text-blue-600")}>
-              Plumbers of Brampton
+              Plumbers of Scarborough
             </span>
           </div>
         </Link>

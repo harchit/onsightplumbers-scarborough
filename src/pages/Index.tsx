@@ -11,17 +11,17 @@ const Index = () => {
   const services = [
     {
       title: "Emergency Plumbing",
-      description: "Available 24/7 for burst pipes, major leaks, and urgent repairs. Our Brampton plumbers are always on standby.",
+      description: "Available 24/7 for burst pipes, major leaks, and urgent repairs. Our Scarborough plumbers are always on standby.",
       icon: <Clock className="h-5 w-5 text-blue-600" />,
     },
     {
       title: "Drain Cleaning",
-      description: "Professional clearing of stubborn clogs and slow-moving drains by expert Brampton plumbing specialists.",
+      description: "Professional clearing of stubborn clogs and slow-moving drains by expert Scarborough plumbing specialists.",
       icon: <Droplets className="h-5 w-5 text-blue-600" />,
     },
     {
       title: "Water Heaters",
-      description: "Installation, repair, and maintenance of all water heater types. Trusted Brampton plumbers for your home.",
+      description: "Installation, repair, and maintenance of all water heater types. Trusted Scarborough plumbers for your home.",
       icon: <ShieldCheck className="h-5 w-5 text-blue-600" />,
     },
     {
@@ -89,13 +89,13 @@ const Index = () => {
           <div className="flex flex-col gap-4">
             <div className="inline-flex items-center gap-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider w-fit">
               <MapPin className="h-4 w-4" />
-              Serving Brampton & Surrounding Areas
+              Serving Scarborough & Surrounding Areas
             </div>
             <h1 className="text-4xl lg:text-6xl font-extrabold text-slate-900 leading-[1.1]">
-              On-Sight <span className="text-blue-600">Plumbers of Brampton</span>
+              On-Sight <span className="text-blue-600">Plumbers of Scarborough</span>
             </h1>
             <p className="text-lg text-slate-600 max-w-xl leading-relaxed mt-4">
-              From emergency repairs to routine maintenance, On-Sight Plumbers of Brampton provides expert solutions with a focus on quality and customer satisfaction. Your local Brampton plumbing experts.
+              From emergency repairs to routine maintenance, On-Sight Plumbers of Scarborough provides expert solutions with a focus on quality and customer satisfaction. Your local Scarborough plumbing experts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-4">
               <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-8 py-6 text-lg shadow-lg shadow-blue-200">
@@ -115,7 +115,7 @@ const Index = () => {
               <div className="flex -space-x-2">
                 {[1, 2, 3, 4].map((i) => (
                   <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-slate-200 flex items-center justify-center overflow-hidden">
-                    <img src={`https://i.pravatar.cc/150?u=${i}`} alt="Happy Brampton Plumbing Customer" />
+                    <img src={`https://i.pravatar.cc/150?u=${i}`} alt="Happy Scarborough Plumbing Customer" />
                   </div>
                 ))}
               </div>
@@ -125,7 +125,7 @@ const Index = () => {
                     <Star key={i} className="h-4 w-4 fill-current" />
                   ))}
                 </div>
-                <span className="text-sm font-bold text-slate-700">113+ Happy Customers in Brampton</span>
+                <span className="text-sm font-bold text-slate-700">113+ Happy Customers in Scarborough</span>
               </div>
             </div>
           </div>
@@ -134,7 +134,7 @@ const Index = () => {
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl aspect-[4/3]">
               <img 
                 src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000" 
-                alt="Professional Brampton Plumbers at work" 
+                alt="Professional Scarborough Plumbers at work" 
                 className="w-full h-full object-cover"
               />
             </div>
@@ -158,7 +158,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-10">
             <h2 className="text-blue-600 font-bold uppercase tracking-widest text-xs mb-3">What We Do</h2>
-            <h3 className="text-3xl font-bold text-slate-900 mb-4">Comprehensive Brampton Plumbing Solutions</h3>
+            <h3 className="text-3xl font-bold text-slate-900 mb-4">Comprehensive Scarborough Plumbing Solutions</h3>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -199,20 +199,20 @@ const Index = () => {
                   <p className="text-4xl font-bold mb-2">24/7</p>
                   <p className="text-sm font-medium opacity-80 uppercase tracking-wider">Emergency Support</p>
                 </div>
-                <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&q=80&w=500" alt="Brampton Plumber Working" className="rounded-2xl shadow-md" />
+                <img src="https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&q=80&w=500" alt="Scarborough Plumber Working" className="rounded-2xl shadow-md" />
               </div>
             </div>
           </div>
           <div className="order-1 lg:order-2 flex flex-col gap-8">
             <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm">Why Choose Us</h2>
-            <h3 className="text-4xl font-bold text-slate-900">The Most Trusted Plumbers in Brampton</h3>
+            <h3 className="text-4xl font-bold text-slate-900">The Most Trusted Plumbers in Scarborough</h3>
             <p className="text-slate-600 leading-relaxed">
-              We understand that plumbing issues can be stressful. That's why we prioritize clear communication, fair pricing, and exceptional workmanship. When you need Brampton plumbers you can count on, we are here.
+              We understand that plumbing issues can be stressful. That's why we prioritize clear communication, fair pricing, and exceptional workmanship. When you need Scarborough plumbers you can count on, we are here.
             </p>
             <ul className="space-y-4">
               {[
                 "Upfront, transparent pricing with no hidden fees",
-                "Highly trained and certified Brampton plumbers",
+                "Highly trained and certified Scarborough plumbers",
                 "Clean and respectful service in your home",
                 "Guaranteed satisfaction on every job",
               ].map((item, i) => (
@@ -269,9 +269,9 @@ const Index = () => {
           <div className="bg-slate-900 rounded-[40px] p-12 md:p-20 text-center relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10" />
             <div className="relative z-10 flex flex-col items-center gap-8">
-              <h2 className="text-4xl md:text-5xl font-bold text-white">Need a Brampton Plumber Right Now?</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-white">Need a Scarborough Plumber Right Now?</h2>
               <p className="text-slate-400 text-lg max-w-2xl">
-                Don't wait for a small leak to become a big problem. Call our expert Brampton plumbers today for a free estimate or emergency service.
+                Don't wait for a small leak to become a big problem. Call our expert Scarborough plumbers today for a free estimate or emergency service.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-10 py-8 text-xl shadow-xl shadow-blue-900/20">
@@ -286,7 +286,7 @@ const Index = () => {
               </div>
               <p className="text-blue-400 font-medium flex items-center gap-2">
                 <Clock className="h-5 w-5" />
-                24/7 Emergency Service Available in Brampton
+                24/7 Emergency Service Available in Scarborough
               </p>
             </div>
           </div>
@@ -298,18 +298,18 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm mb-4">Our Location</h2>
-            <h3 className="text-4xl font-bold text-slate-900 mb-6">Find Us in Brampton</h3>
+            <h3 className="text-4xl font-bold text-slate-900 mb-6">Find Us in Scarborough</h3>
           </div>
           <div className="rounded-[40px] overflow-hidden shadow-2xl border-8 border-white h-[500px] relative">
             <iframe
-              src="https://maps.google.com/maps?q=10095%20Bramalea%20Rd,%20Brampton,%20ON%20L6R%200K1&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=1234%20Lawrence%20Ave%20E,%20Scarborough,%20ON%20M1P%202P9&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="On-Sight Plumbers of Brampton Location"
+              title="On-Sight Plumbers of Scarborough Location"
             ></iframe>
           </div>
         </div>

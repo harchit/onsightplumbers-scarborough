@@ -31,7 +31,7 @@ const Contact = () => {
   const contactInfo = [
     {
       title: "Our Location",
-      content: "10095 Bramalea Rd, Brampton, ON L6R 0K1",
+      content: "1234 Lawrence Ave E, Scarborough, ON M1P 2P9",
       icon: <MapPin className="h-6 w-6 text-blue-600" />,
     },
     {
@@ -42,8 +42,8 @@ const Contact = () => {
     },
     {
       title: "Email Address",
-      content: "info@onsightplumbersofbrampton.site",
-      link: "mailto:info@onsightplumbersofbrampton.site",
+      content: "info@onsightplumbersofscarborough.site",
+      link: "mailto:info@onsightplumbersofscarborough.site",
       icon: <Mail className="h-6 w-6 text-blue-600" />,
     },
     {
@@ -62,10 +62,10 @@ const Contact = () => {
         <div className="absolute inset-0 bg-blue-600/10" />
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-extrabold mb-6">Contact Our <span className="text-blue-400">Brampton Plumbers</span></h1>
+            <h1 className="text-5xl font-extrabold mb-6">Contact Our <span className="text-blue-400">Scarborough Plumbers</span></h1>
             <p className="text-xl text-slate-300 leading-relaxed">
               Have a plumbing emergency or need a quote for a project? 
-              Reach out to our expert Brampton plumbers today and our team will be happy to assist you.
+              Reach out to our expert Scarborough plumbers today and our team will be happy to assist you.
             </p>
           </div>
         </div>
@@ -78,9 +78,9 @@ const Contact = () => {
           <div className="flex flex-col gap-12">
             <div className="flex flex-col gap-6">
               <h2 className="text-blue-600 font-bold uppercase tracking-widest text-sm">Get In Touch</h2>
-              <h3 className="text-4xl font-bold text-slate-900">Expert Brampton Plumbing Help</h3>
+              <h3 className="text-4xl font-bold text-slate-900">Expert Scarborough Plumbing Help</h3>
               <p className="text-slate-600 leading-relaxed">
-                Whether it's a small leak or a major renovation, we're ready to provide the expert Brampton plumbing solutions you need. 
+                Whether it's a small leak or a major renovation, we're ready to provide the expert Scarborough plumbing solutions you need. 
                 Call us for immediate assistance or fill out the form and we'll get back to you shortly.
               </p>
             </div>
@@ -108,14 +108,14 @@ const Contact = () => {
             {/* Map Section */}
             <div className="rounded-3xl overflow-hidden shadow-lg h-64 bg-slate-200 relative">
               <iframe
-                src="https://maps.google.com/maps?q=10095%20Bramalea%20Rd,%20Brampton,%20ON%20L6R%200K1&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=1234%20Lawrence%20Ave%20E,%20Scarborough,%20ON%20M1P%202P9&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="On-Sight Plumbers of Brampton Location"
+                title="On-Sight Plumbers of Scarborough Location"
               ></iframe>
             </div>
           </div>
@@ -129,7 +129,7 @@ const Contact = () => {
                 </div>
                 <h3 className="text-3xl font-bold text-slate-900">Thank You!</h3>
                 <p className="text-slate-600 text-lg max-w-sm">
-                  Your message has been sent successfully. One of our Brampton plumbers will contact you shortly.
+                  Your message has been sent successfully. One of our Scarborough plumbers will contact you shortly.
                 </p>
                 <Button 
                   onClick={() => setIsSubmitted(false)}
@@ -142,7 +142,7 @@ const Contact = () => {
               <form onSubmit={handleSubmit} className="flex flex-col gap-6">
                 <div className="flex flex-col gap-2">
                   <h3 className="text-2xl font-bold text-slate-900">Send a Message</h3>
-                  <p className="text-slate-500">Fill out the form below and our Brampton plumbers will get back to you within 24 hours.</p>
+                  <p className="text-slate-500">Fill out the form below and our Scarborough plumbers will get back to you within 24 hours.</p>
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-6">
@@ -186,7 +186,7 @@ const Contact = () => {
                   <Label htmlFor="message">Your Message</Label>
                   <Textarea 
                     id="message" 
-                    placeholder="Tell our Brampton plumbers about your issue..." 
+                    placeholder="Tell our Scarborough plumbers about your issue..." 
                     required 
                     className="rounded-xl min-h-[150px] p-4"
                   />

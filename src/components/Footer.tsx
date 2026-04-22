@@ -18,12 +18,12 @@ const Footer = () => {
                 On-Sight
               </span>
               <span className="text-xs font-medium tracking-wider uppercase text-blue-400">
-                Plumbers of Brampton
+                Plumbers of Scarborough
               </span>
             </div>
           </Link>
           <p className="text-sm leading-relaxed">
-            Professional plumbing services for Brampton and surrounding areas. 
+            Professional plumbing services for Scarborough and surrounding areas. 
             Reliable, efficient, and always on-sight when you need us most.
           </p>
           <div className="flex gap-4">
@@ -61,7 +61,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-4 text-sm">
             <li className="flex items-start gap-3">
               <MapPin className="h-5 w-5 text-blue-400 shrink-0" />
-              <span>10095 Bramalea Rd, Brampton, ON L6R 0K1</span>
+              <span>1234 Lawrence Ave E, Scarborough, ON M1P 2P9</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="h-5 w-5 text-blue-400 shrink-0" />
@@ -69,14 +69,14 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="h-5 w-5 text-blue-400 shrink-0" />
-              <a href="mailto:info@onsightplumbersofbrampton.site" className="hover:text-blue-400 transition-colors">info@onsightplumbersofbrampton.site</a>
+              <a href="mailto:info@onsightplumbersofscarborough.site" className="hover:text-blue-400 transition-colors">info@onsightplumbersofscarborough.site</a>
             </li>
           </ul>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
-        <p>© {currentYear} On-Sight Plumbers of Brampton. All rights reserved.</p>
+        <p>© {currentYear} On-Sight Plumbers of Scarborough. All rights reserved.</p>
         <div className="flex gap-6">
           <a href="#" className="hover:text-blue-400 transition-colors">Privacy Policy</a>
           <a href="#" className="hover:text-blue-400 transition-colors">Terms of Service</a>
