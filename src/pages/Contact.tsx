@@ -36,8 +36,8 @@ const Contact = () => {
     },
     {
       title: "Phone Number",
-      content: "(289) 907-3904",
-      link: "tel:2899073904",
+      content: "(647) 317-1714",
+      link: "tel:6473171714",
       icon: <Phone className="h-6 w-6 text-blue-600" />,
     },
     {
@@ -163,7 +163,7 @@ const Contact = () => {
 
                 <div className="space-y-2">
                   <Label htmlFor="phone">Phone Number</Label>
-                  <Input id="phone" type="tel" placeholder="(289) 907-3904" required className="rounded-xl py-6" />
+                  <Input id="phone" type="tel" placeholder="(647) 317-1714" required className="rounded-xl py-6" />
                 </div>
 
                 <div className="space-y-2">

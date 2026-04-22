@@ -61,9 +61,9 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white rounded-full px-6">
-            <a href="tel:2899073904" className="flex items-center gap-2">
+            <a href="tel:6473171714" className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              (289) 907-3904
+              (647) 317-1714
             </a>
           </Button>
         </div>
@@ -94,9 +94,9 @@ const Navbar = () => {
             </Link>
           ))}
           <Button asChild className="bg-blue-600 hover:bg-blue-700 text-white w-full py-6 text-lg">
-            <a href="tel:2899073904" className="flex items-center justify-center gap-2">
+            <a href="tel:6473171714" className="flex items-center justify-center gap-2">
               <Phone className="h-5 w-5" />
-              (289) 907-3904
+              (647) 317-1714
             </a>
           </Button>
         </div>
