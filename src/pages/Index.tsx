@@ -302,7 +302,7 @@ const Index = () => {
           </div>
           <div className="rounded-[40px] overflow-hidden shadow-2xl border-8 border-white h-[500px] relative">
             <iframe
-              src="https://maps.google.com/maps?q=1234%20Lawrence%20Ave%20E,%20Scarborough,%20ON%20M1P%202P9&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=3660%20Midland%20Ave,%20Scarborough,%20ON%20M1V%200B8&t=&z=15&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}

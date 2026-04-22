@@ -31,7 +31,7 @@ const Contact = () => {
   const contactInfo = [
     {
       title: "Our Location",
-      content: "1234 Lawrence Ave E, Scarborough, ON M1P 2P9",
+      content: "3660 Midland Ave, Scarborough, ON M1V 0B8",
       icon: <MapPin className="h-6 w-6 text-blue-600" />,
     },
     {
@@ -108,7 +108,7 @@ const Contact = () => {
             {/* Map Section */}
             <div className="rounded-3xl overflow-hidden shadow-lg h-64 bg-slate-200 relative">
               <iframe
-                src="https://maps.google.com/maps?q=1234%20Lawrence%20Ave%20E,%20Scarborough,%20ON%20M1P%202P9&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=3660%20Midland%20Ave,%20Scarborough,%20ON%20M1V%200B8&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

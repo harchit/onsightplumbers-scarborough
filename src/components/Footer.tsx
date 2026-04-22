@@ -61,7 +61,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-4 text-sm">
             <li className="flex items-start gap-3">
               <MapPin className="h-5 w-5 text-blue-400 shrink-0" />
-              <span>1234 Lawrence Ave E, Scarborough, ON M1P 2P9</span>
+              <span>3660 Midland Ave, Scarborough, ON M1V 0B8</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="h-5 w-5 text-blue-400 shrink-0" />
